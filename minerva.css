@@ -28,8 +28,8 @@
 	}
 	.overlay.search-overlay .header-cancel {
 	display: block;
-    margin-top: 6px;
-}
+    	margin-top: 6px;
+	}
 	.thumbimage {
 		border-top-right-radius: 20px !important;
 		border-bottom-right-radius: 0px !important;
@@ -74,6 +74,7 @@
 		left: initial;
 		right: initial;
 	}
+}
 	
 @media not all and (min-resolution:.001dpcm) { 
     @media {
@@ -96,7 +97,6 @@
 		margin: 0.5em 0 1em 35px;
 		max-width: 350px !important;
 	}
-}
 	.header-container.header-chrome {
 		background: var(--menu-background);
 		/*
@@ -151,6 +151,7 @@
 		transform: translate(-300px, 0) !important;
 		transition: transform 250ms ease-in-out;
 	}
+}
 	/* ENHANCED SEARCH */
 @keyframes search{
   0% {
